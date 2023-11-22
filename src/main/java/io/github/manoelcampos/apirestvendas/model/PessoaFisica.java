@@ -7,6 +7,10 @@ import lombok.Data;
  */
 @Data
 public class PessoaFisica {
+    /**
+     * Usando Hibernate Validation, o código inteiro de validação de CPF pode
+     * ser substituído pela anotação {@link org.hibernate.validator.constraints.br.CPF}.
+     */
     private String cpf;
 
     /**
@@ -60,7 +64,7 @@ public class PessoaFisica {
     }
 
     public void setCpf(final String cpf) {
-        if(!isCpfValido(cpf))
+        if (!isCpfValido(cpf))
             throw new IllegalArgumentException("CPF inválido");
 
         this.cpf = cpf;
