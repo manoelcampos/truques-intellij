@@ -1,0 +1,10 @@
+# Projeto Spring Boot de exemplo para testar truques do IntelliJ
+
+Para testar estes recursos, pode ser usado qualquer tipo de projeto com qualquer linguagem, não necessariamente Java com Spring Boot.
+
+## Habilitar DevTools no IntelliJ
+
+Para habilitar a recompilação e reinicio do servidor a cada alteração do projeto, acesse as configurações do IntelliJ e habilite:
+
+- `Build, Execution, Deployment > Compiler > Build project automatically`
+- `Advanced Settings > Allow auto-make to start even if developed application is currently running`
