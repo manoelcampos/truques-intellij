@@ -14,7 +14,7 @@
 	<name>truques-intellij</name>
 	<description>Projeto Spring Boot de exemplo para mostrar alguns truques do IntelliJ (mas pode usar qualquer tipo de projeto e linguagem)</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
