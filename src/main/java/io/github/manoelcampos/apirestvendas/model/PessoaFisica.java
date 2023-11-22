@@ -53,7 +53,7 @@ public class PessoaFisica {
 
         // Converte os dígitos calculados de int para String e une (concatena) os dois
         // numa só String.
-        String digVerificadorCalculado = String.valueOf(d1) + String.valueOf(d2);
+        String digVerificadorCalculado = String.valueOf(d1) + d2;
         // Copia os 2 últimos dígitos do CPF informado, para comparar com os dígitos
         // calculados
         String digVerificadorExistente = cpf.substring(cpf.length() - 2);
