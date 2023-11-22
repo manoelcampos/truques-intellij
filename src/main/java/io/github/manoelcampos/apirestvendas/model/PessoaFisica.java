@@ -8,10 +8,27 @@ import lombok.Data;
 @Data
 public class PessoaFisica {
     /**
+     * TODO Usar plugin ChatGPT EasyCode (é preciso logar no menu lateral direito, tem opção de usar conta padrão)
+     * para converter pra enum.
+     * Prompt: Converta este vetor para um enum mais simples possível.
+     */
+    private static final String[] SEXO = {"Masculino", "Feminino"};
+
+    private String sexo;
+
+    /**
      * Usando Hibernate Validation, o código inteiro de validação de CPF pode
      * ser substituído pela anotação {@link org.hibernate.validator.constraints.br.CPF}.
      */
     private String cpf;
+
+    public void setSexo(String sexo){
+        if (!SEXO[0].equals(sexo) && !SEXO[1].equals(sexo)) {
+            throw new IllegalArgumentException("Sexo inválido");
+        }
+
+        this.sexo = sexo;
+    }
 
     /**
      * Calcula um dígito verificador de um CPF ou CNPJ utilizando o algoritmo módulo 11.
