@@ -3,6 +3,7 @@
 Para testar estes recursos, pode ser usado qualquer tipo de projeto com qualquer linguagem, não necessariamente Java com Spring Boot.
 
 Acesse a https://www.icloud.com/keynote/0eeztjw8sC0ruRURyhzuWvlvA#truques-intellij[apresentação aqui].
+Alguns dos recursos mostrado lá podem só funcionar na versão Ultimate do IntelliJ.
 
 ## Habilitar DevTools no IntelliJ
 
