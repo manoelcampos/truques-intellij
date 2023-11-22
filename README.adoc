@@ -2,6 +2,8 @@
 
 Para testar estes recursos, pode ser usado qualquer tipo de projeto com qualquer linguagem, não necessariamente Java com Spring Boot.
 
+Acesse a https://www.icloud.com/keynote/0eeztjw8sC0ruRURyhzuWvlvA#truques-intellij[apresentação aqui].
+
 ## Habilitar DevTools no IntelliJ
 
 Para habilitar a recompilação e reinicio do servidor a cada alteração do projeto, acesse as configurações do IntelliJ e habilite:
